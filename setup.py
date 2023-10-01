@@ -17,7 +17,7 @@ setup(
         # Add more dependencies as needed
     ],
     extras_require={
-        'dev': [  # Development dependencies (e.g., for testing and linting)
+        'dev': [  
             'pytest',
             'flake8',
             'mypy',
