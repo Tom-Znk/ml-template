@@ -16,5 +16,13 @@ setup(
         'tqdm',
         # Add more dependencies as needed
     ],
+    extras_require={
+        'dev': [  # Development dependencies (e.g., for testing and linting)
+            'pytest',
+            'flake8',
+            'mypy',
+            # Add more development dependencies as needed
+        ]
+    },
     python_requires='>=3.11',  # Specify the minimum Python version required
 )
